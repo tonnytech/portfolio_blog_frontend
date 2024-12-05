@@ -20,5 +20,5 @@ export const reloadPage = () => {
   window.location.reload();
 };
 
-// export const baseUrl = "https://blogsite-drhrgqhtehcxfggj.canadacentral-01.azurewebsites.net"
-export const baseUrl = "http://localhost:5000";
+export const baseUrl = "https://blogsite-drhrgqhtehcxfggj.canadacentral-01.azurewebsites.net"
+// export const baseUrl = "http://localhost:5000";
