@@ -37,6 +37,7 @@ const EditBlog = () => {
   const [tagInput, setTagInput] = useState(""); // Separate state for the tag input
 
   const handleTagChange = (e) => {
+    e.preventDefault();
     setTagInput(e.target.value);
   };
 
@@ -143,7 +144,7 @@ const EditBlog = () => {
                 className='block text-sm font-medium text-gray-700 mb-2'>
                 Markdown
               </label>
-              <input
+              <textarea
                 value={formData.markdown}
                 onChange={handleChange}
                 className='form-control w-full border border-gray-300 rounded-lg p-2'
