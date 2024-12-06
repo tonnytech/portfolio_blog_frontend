@@ -48,13 +48,25 @@ const Contact = () => {
     <div className='pb-16 px-4 md:px-0' id='contact'>
       <div className='flex justify-between'>
         <div className='border-l-4 border-red-500 pl-6 dark:text-gray-200 py-2 text-sm'>
-          <a className='block mb-2' href='https://github.com/tonnytech'>
+          <a
+            className='block mb-2'
+            href='https://github.com/tonnytech'
+            target='_blank'
+            rel='noreferrer'>
             github.com/tonnytech
           </a>
-          <a className='block mb-2' href='https://linkedin.com/in/tonnytei'>
+          <a
+            className='block mb-2'
+            href='https://linkedin.com/in/tonnytei'
+            target='_blank'
+            rel='noreferrer'>
             linkedin.com/in/tonnytei
           </a>
-          <a className='block' href='mailto:tonnytei4@gmail.com'>
+          <a
+            className='block'
+            href='mailto:tonnytei4@gmail.com'
+            target='_blank'
+            rel='noreferrer'>
             tonnytei4@gmail.com
           </a>
         </div>
