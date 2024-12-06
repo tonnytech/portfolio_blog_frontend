@@ -150,7 +150,6 @@ const EditBlog = () => {
                 className='form-control w-full border border-gray-300 rounded-lg p-2'
                 name='markdown'
                 id='markdown'
-                rows='6'
               />
             </div>
 
