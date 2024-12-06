@@ -113,11 +113,11 @@ const Portfolio = ({ projectsIsLoading, displayProjects, showButton }) => {
         )}
       </>
       {showButton ? (
-        <a href='/projects'>
+        <Link to='/projects'>
           <button className='text-gray-700 dark:text-gray-300 text-center w-full focus:outline-none'>
             --- see more ---
           </button>
-        </a>
+        </Link>
       ) : (
         ""
       )}
