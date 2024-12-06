@@ -24,6 +24,7 @@ const NewBlog = () => {
   const [tagInput, setTagInput] = useState(""); // Separate state for the tag input
 
   const handleTagChange = (e) => {
+    e.preventDefault();
     setTagInput(e.target.value);
   };
 
@@ -132,7 +133,6 @@ const NewBlog = () => {
                 className='form-control w-full border border-gray-300 rounded-lg p-2'
                 name='markdown'
                 id='markdown'
-                rows='6'
               />
             </div>
 
